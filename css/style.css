@@ -1,0 +1,250 @@
+/* fonts */ /* font-family: 'Ibarra Real Nova', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap');
+
+/* commons */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ibarra Real Nova', serif !important;
+    font-weight: 700;
+}
+/* banner start */
+.top {
+    background-color: #250808;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-content {
+    width: 40%;
+    padding: 0 15px 0px 15px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.left-content h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.left-content p {
+    margin-bottom: 30px;
+}
+.left-content a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 1s;
+}
+.left-content a:hover i {
+    transform: translateX(80%);
+}
+.left-content i {
+    font-size: 20px;
+    margin-left: 5px;
+    transition: 1.3s;
+}
+.left-content button {
+    background-color: #dd0000;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left-content button:focus {
+    outline: none;
+}
+.right-content {
+    width: 40%;
+}
+.right-image img {
+    width: 100%;
+}
+/* banner end */
+
+/* blog section start */
+.blog-contents {
+    display: flex;
+}
+.blog-left-content {
+    width: 330px;
+    margin-right: 20px;
+    border-radius: 10px;    
+}
+.nav {
+    background-color: #161616;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.nav a {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.nav a:hover {
+    color: #ffffff;
+    background-color: #ffcccb;
+}
+.blog-right-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.upcoming-match {
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+}
+.match-image img {
+    width: 100%;
+}
+.right-content-inner {
+    padding: 15px 0px 0 30px;
+}
+.transfer {
+    margin: 5px 0px 20px 0px;
+}
+.transfer a {
+    font-weight: 700;
+    color: #161616;
+    text-decoration: none;
+    padding: 7px 12px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    transition: .3s;
+}
+.transfer a:hover {
+    color: #ffffff;
+    background-color: #161616;
+}
+.bloginfo {
+    margin: 20px 0 30px;
+}
+.bloginfo i {
+    color: #161616;
+    margin-right: 10px;
+}
+.bloginfo i:last-child {
+    margin-left: 30px;
+}
+/* blog section end */
+
+/* upcoming sectio start */
+.match-teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px 0;
+}
+.match-teams img {
+    width: 100%;
+}
+.match-teams h3 {
+    margin: 0 10px 0;
+}
+.match-time {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+.view {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.view button {
+    background-color: #dd0000;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: .3s;
+}
+.view button:focus {
+    outline: none;
+}
+.view button:hover {
+    outline: none;
+    color: #dd0000;
+    background-color: #ffffff;
+    border: 1px solid #dd0000;
+}
+.view a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+.view button:hover a {
+    color: #dd0000;
+}
+/* upcoming section end */
+
+/* footer start */
+footer {
+    background-color: #161616;
+}
+.footer-inner {
+    padding: 100px 0;
+}
+.footer-inner h1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+.hr {
+    width: 85%;
+    height: 1px;
+    background-color: #2c2c2c;
+    margin: 80px auto;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: #b9b9b9;
+}
+.social {
+    text-align: center;
+}
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.social ul li a {
+    color: #b9b9b9;
+    transition: .3s;
+}
+.fb:hover {
+    color: #0d88ef;
+}
+.tw:hover {
+    color: #1d9bf0;
+}
+.ins:hover {
+    color: #e93f54;
+}
+/* footer end */
